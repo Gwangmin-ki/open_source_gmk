@@ -1,5 +1,3 @@
-//20151619_김광민_opensource
-
 def main():
 
     students = []
