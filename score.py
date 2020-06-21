@@ -4,7 +4,7 @@ def main():
 
     students = []
     
-    fp = open('C:\20151619_opensource/score.csv','r')
+    fp = open('C:\Users\Min\git\open_source_gmk/score.csv','r')
     lines = fp.readlines()
     fp.close()
     
@@ -37,7 +37,7 @@ def main():
         
     result_students = sorted(sorted_students, key = lambda x : x['id'])
     
-    fp = open('C:\20151619_opensource/result_score.csv', 'w')
+    fp = open('C:\Users\Min\git\open_source_gmk/result_score.csv', 'w')
     
     for student in result_students:
         line = ','.join([str(student['id']),str(student['name']),str(student['kor']),str(student['eng']),
